@@ -10,6 +10,6 @@
 .app {
   min-height: 100vh;
   display: grid;
-  background-color: black;
-  /* background-image: url("./assets/tree.png"); */
+  /* background-color: black; */
+  background-image: url("./assets/three.png");
 }
