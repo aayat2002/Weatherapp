@@ -89,7 +89,7 @@
 
 @media screen and (min-width: 335px) {
   .weather {
-    /* height: 800px;
-    color: blue; */
+    height: 800px;
+    width: 335px;
   }
 }
