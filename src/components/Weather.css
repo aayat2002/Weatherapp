@@ -90,11 +90,11 @@
 @media screen and (min-width: 335px) {
   .weather {
     height: 800px;
-    /* width: 335px; */
-    width: fit-content;
+    width: 335px;
+    /* width: fit-content; */
   }
 
-  .search-bar {
+  /* .search-bar {
     width: 20px;
-  }
+  } */
 }
