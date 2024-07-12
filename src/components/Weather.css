@@ -82,9 +82,7 @@
   margin-top: 10px;
 }
 
-.app {
-  background-image: image();
-}
+
 /* +++++Responvive for mobile version++++ */
 /* 
 @media screen and (min-width: 335px) {
