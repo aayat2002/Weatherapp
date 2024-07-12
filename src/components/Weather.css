@@ -92,4 +92,8 @@
     height: 800px;
     width: 335px;
   }
+
+  .search-bar {
+    width: 20px;
+  }
 }
