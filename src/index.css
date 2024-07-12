@@ -12,4 +12,5 @@
   display: grid;
   /* background-color: #e2d4ff; */
   background-image: url("./assets/tree.png");
+  background: fixed;
 }
