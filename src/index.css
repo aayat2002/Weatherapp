@@ -9,7 +9,7 @@
 
 .app {
   min-height: 100vh;
-  width: 50px
+  width: 50px;
   display: grid;
   /* background-color: #e2d4ff; */
   background-image: url("./assets/tree.png");
