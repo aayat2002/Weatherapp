@@ -2,7 +2,14 @@
   place-self: center;
   padding: 40px;
   border-radius: 10px;
-  background-image: linear-gradient(45deg, #2f4680, #500ae4);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,8 +27,8 @@
   outline: none;
   border-radius: 40px;
   padding-left: 40px;
-  color: #626262;
-  background: #ebfffc;
+  /* color: #626262; */
+  /* background: #ebfffc; */
   font-size: 18px;
 }
 
@@ -73,4 +80,16 @@
 .humidity-icon {
   width: 60px;
   margin-top: 10px;
+}
+
+.app {
+  background-image: image();
+}
+/* +++++Responvive for mobile version++++ */
+
+@media screen and (min-width: 335px) {
+  .weather {
+    /* height: 800px;
+    color: blue; */
+  }
 }
