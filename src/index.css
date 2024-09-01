@@ -12,3 +12,11 @@
   display: grid;
   background-image: url("./assets/three.png");
 }
+
+/* ******mobile version**** */
+/* 
+@media screen and (min-width: 377px) {
+  .app {
+    width: 300px;
+  }
+} */
